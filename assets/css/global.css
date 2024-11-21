@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "ifood-titulo-regular";
+  src: url("../fonts/iFoodRCTextos-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ifood-textos-regular";
+  src: url("../fonts/iFoodRCTextos-Regular.ttf") format("truetype");
+}
+
+:root {
+    --color1: #ea1d2c;
+    --color2: #f1f0f0;
+    --color3: #ffffff;
+    --color4: #3e3e3e;
+    --color5: #cc1825;
+    --color6: #9eb53e;
+    --color7: #b6d048;
+    
+    --font1: "ifood-titulo-regular";
+    --font2: "ifood-textos-regular";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+  font-family: var(--font1);
+}
+
+body {
+  background-color: var(--color3);
+  font-family: var(--font2);
+}

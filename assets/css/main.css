@@ -1,0 +1,125 @@
+.header {
+    background-color: var(--color2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.header__containerMenu {
+    max-width: 1228px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.header__logo {
+    width: 80px;
+}
+
+.header__menu a {
+    color: var(--color4);
+    font-size: 1rem;
+}
+
+.header__menu2 {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.header__menu2Botao1 {
+    color: var(--color1);
+    font-size: 1rem;
+}
+
+.header__menu2Botao2 {
+    background-color: var(--color1);
+    color: var(--color3);
+    font-size: 1rem;
+    padding: 0.7rem 1.7rem;
+    border-radius: 4px;
+}
+
+.apresentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0 30px 0;  
+}
+
+.apresentation__titulo {
+    font-family: var(--font2);
+    font-weight: bold;
+    font-size: 3rem;
+    color: #3e3e3e;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.apresentation__texto {
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: #3e3e3e;
+    text-align: center;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 40px;
+}
+
+.banner__card {
+    color: var(--color3);
+    font-size: 1.5rem;
+    border-radius: 20px;
+    width: 404px;
+    height: 214px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.banner__card--restaurante {
+    background-color: var(--color1);
+    background-image: url('../images/restaurant.avif');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner__card--mercado {
+    background-color: var(--color7);
+    background-image: url('../images/market.avif');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner__botao {
+    padding: 10px 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 12px;
+    color: var(--color3);
+}
+ 
+.banner__botao--restaurante {
+    background-color: var(--color5);
+}
+ 
+.banner__botao--mercado {
+    background-color: var(--color6);
+}
